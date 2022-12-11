@@ -22,7 +22,7 @@ for gpu in gpu_data:
     name = gpu["Graphics Card"]
     perf = float(gpu["4K Ultra perf"].strip('%'))
 
-    # Yearly relative computing power depreciation constant. This should probably be in the range of 0.001 to 0.05
+    # Yearly relative computing power depreciation constant. This should probably be in the range of 0.1 to 0.5
     r = 0.223
 
     # Computing power limit the user wants their current gpu to be above of
