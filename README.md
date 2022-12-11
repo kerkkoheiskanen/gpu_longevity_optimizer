@@ -1,5 +1,5 @@
 # GPU purchase optimizer
-A short script to calculate gpu optimal gpu to purchase for cost and performance over gpu lifetime.
+A short script to calculate optimal gpu to purchase for cost and performance over it's lifetime.
 
 At this point, if you want to calculate which GPU you should buy to optimize performance for it's lifetime:
 1. Check the CSV has correct data for cheapest prices. You'll have to input these manually for now.
